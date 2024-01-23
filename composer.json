@@ -1,0 +1,19 @@
+{
+    "name": "mvenghaus/m2-module-elasticsuite-debug",
+    "description": "Very poorly programmed debug output of Elasticsearch requests in frontend ;)",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mvenghaus\\ElasticsuiteDebug\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marcus",
+            "email": "marcus.venghaus@inklammern.de"
+        }
+    ],
+    "require": {
+        "smile/elasticsuite": "^2.11.0"
+    }
+}
